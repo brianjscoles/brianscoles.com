@@ -1,0 +1,36 @@
+
+.header-bar {
+  /*box-sizing:border-box;*/
+  padding-top: 180px;
+  padding-bottom: 40px;
+  background-image:url('../img/banner 6 2000w.jpg');
+  /*background-size:contain;*/
+  background-size:100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*background-position: */
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    margin-left:-4px;
+    width: 33%;
+
+}
