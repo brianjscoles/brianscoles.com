@@ -39,6 +39,10 @@ a:hover {
     color: rgb(59, 125, 172) !important;
 }
 
+.btn-success:hover{
+    background-color: rgb(59, 125, 172) !important;
+}
+
 h1,
 h2,
 h3,
