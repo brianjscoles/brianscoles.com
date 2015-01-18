@@ -30,6 +30,7 @@ lighter blue (for hover): rgb(80, 146, 193);
 
 
 
+
 body {
     overflow-x: hidden;
 }
@@ -418,6 +419,20 @@ footer .footer-below {
     border-color: rgb(59, 125, 172);
     margin-right:8px;
     margin-left:8px;
+}
+
+.btn-disabled {
+    font-style: italic;
+    background-color: darkgrey;
+    border-color: black;
+    margin-left: -102px;
+}
+
+.btn-disabled:hover {
+    font-style: italic !important;
+    background-color: darkgrey !important;
+    border-color: black !important;
+    margin-left: -102px !important;
 }
 
 .scroll-top {
