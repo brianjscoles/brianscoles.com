@@ -18,8 +18,8 @@ lighter blue (for hover): rgb(80, 146, 193);
     margin: auto;
     margin-top: 40px;
     margin-bottom: 75px;
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border: 6px solid darkgray;
     overflow: hidden;
@@ -120,6 +120,9 @@ hr.star-primary:after {
 
 .img-centered {
     margin: 0 auto;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 header {
@@ -413,6 +416,8 @@ footer .footer-below {
 .btn-success {
     background-color: rgb(59, 125, 172);
     border-color: rgb(59, 125, 172);
+    margin-right:8px;
+    margin-left:8px;
 }
 
 .scroll-top {
