@@ -16,12 +16,12 @@ lighter blue (for hover): rgb(80, 146, 193);
 
 .top-photo {
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 75px;
+    margin-top: 10px;
+    margin-bottom: 25px;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 6px solid darkgray;
+    border: 6px solid #2c3e50;
     overflow: hidden;
     background-image: url("../img/brian.jpg");
     background-position: center center;
@@ -143,6 +143,7 @@ header img {
 }
 
 header .intro-text .name {
+    margin-top: 277px;
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -218,7 +219,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
     background: rgb(255,255,246);
 }
 
